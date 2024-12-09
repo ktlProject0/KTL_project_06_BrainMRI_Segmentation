@@ -1,4 +1,4 @@
-name: 06_brainMRI_segmentation
+name: KTL_project_06_MRI_BrainCancer_Segmentation
 channels:
   - pytorch
   - nvidia
@@ -217,4 +217,4 @@ dependencies:
   - pip:
       - albumentations==1.0.0
       - simpleitk==2.4.0
-prefix: /home/pwrai/userarea/anaconda_envs/envs/06_brainMRI_segmentation
+prefix: /home/pwrai/userarea/anaconda_envs/envs/KTL_project_06_MRI_BrainCancer_Segmentation
