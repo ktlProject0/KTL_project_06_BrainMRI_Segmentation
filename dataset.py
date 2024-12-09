@@ -68,8 +68,8 @@ class CustomDataset(Dataset):
         return sample_input
         
 if __name__ == '__main__':
-    train = CustomDataset('/home/pwrai/userarea/hansung3/KTL_project_06_BrainMRI_Segmentation/data', 'train')
-    test = CustomDataset('/home/pwrai/userarea/hansung3/KTL_project_06_BrainMRI_Segmentation/data', 'test')
+    train = CustomDataset('/home/pwrai/userarea/KTL_project_06_MRI_BrainCancer_Segmentation/data', 'train')
+    test = CustomDataset('/home/pwrai/userarea/KTL_project_06_MRI_BrainCancer_Segmentation/data', 'test')
     for sample_input in train:
         print(sample_input['input'].shape)
         print(sample_input['target'].shape)
